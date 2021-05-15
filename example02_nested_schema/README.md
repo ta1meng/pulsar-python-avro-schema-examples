@@ -1,6 +1,6 @@
 This example is broken out of the box.
 
-The director `schema_fixes` contains the changes needed to fix all the errors below.
+The directory `schema_fixes` contains the changes needed to fix all the errors below.
 
 The producer error trace against Python 2.7 is:
 
