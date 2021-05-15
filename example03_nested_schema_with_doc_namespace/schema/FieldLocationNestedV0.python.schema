@@ -1,0 +1,5 @@
+{
+    "type": "AVRO",
+    "schema": "{\"name\":\"FieldLocationNested\",\"type\":\"record\",\"namespace\":\"org.apache.pulsar.examples\",\"fields\":[{\"name\":\"latitude\",\"type\":\"float\",\"doc\":\"Latitude\"},{\"name\":\"longitude\",\"type\":\"float\",\"doc\":\"Longitude\"},{\"name\":\"Userdata\",\"type\":{\"name\":\"UserdataSchema\",\"type\":\"record\",\"fields\":[{\"name\":\"fieldId\",\"type\":\"string\",\"doc\":\"IDofafieldasknowntosomefieldservice\"},{\"name\":\"action\",\"type\":[\"null\",\"string\"]}]}}],\"doc\":\"Schemaforafieldlocation\"}",
+    "properties": {}
+}

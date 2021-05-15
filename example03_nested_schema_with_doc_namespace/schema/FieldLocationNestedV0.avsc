@@ -1,0 +1,33 @@
+{
+ "name" : "FieldLocationNested",
+ "type" : "record",
+ "namespace" : "org.apache.pulsar.examples",
+ "fields" : [ {
+   "name" : "latitude",
+   "type" : "float",
+   "doc" : "Latitude"
+ }, {
+   "name" : "longitude",
+   "type" : "float",
+   "doc" : "Longitude"
+ }, {
+     "name": "Userdata",
+     "type": {
+       "name": "UserdataSchema",
+       "type": "record",
+       "fields": [ {
+           "name": "fieldId",
+           "type": "string",
+           "doc": "ID of a field as known to some field service"
+         }, {
+           "name": "action",
+           "type": [
+             "null",
+             "string"
+           ]
+         }
+       ]
+     }
+   }],
+ "doc" : "Schema for a field location"
+}
