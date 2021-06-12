@@ -1,0 +1,5 @@
+{
+    "type": "AVRO",
+    "schema": "{\"type\":\"record\",\"name\":\"DefaultValuesNoNulls\",\"namespace\":\"org.apache.pulsar.examples\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\",\"default\":\"Defaultdescription.\"},{\"name\":\"floatValue\",\"type\":\"float\",\"default\":3.14159},{\"name\":\"intValue\",\"type\":\"int\",\"default\":9876},{\"name\":\"boolValue1\",\"type\":\"boolean\",\"default\":false},{\"name\":\"boolValue2\",\"type\":\"boolean\",\"default\":true},{\"name\":\"DefaultValuesNoNullsUserdata\",\"type\":{\"name\":\"DefaultValuesNoNullsUserdataSchema\",\"type\":\"record\",\"fields\":[{\"name\":\"fieldId\",\"type\":\"string\",\"default\":\"defaultFieldId\"},{\"name\":\"acreage\",\"type\":\"int\",\"default\":-1}]}}]}",
+    "properties": {}
+}
