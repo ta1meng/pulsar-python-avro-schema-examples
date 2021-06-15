@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "DefaultValuesNoNulls",
+  "namespace" : "org.apache.pulsar.examples",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ]
+}

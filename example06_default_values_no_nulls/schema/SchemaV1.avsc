@@ -1,0 +1,31 @@
+{
+  "type": "record",
+  "name": "DefaultValuesNoNulls",
+  "namespace" : "org.apache.pulsar.examples",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },{
+      "name": "description",
+      "type": "string",
+      "default": "defaultDescription"
+    },{
+      "name": "floatValue",
+      "type": "float",
+      "default": 3.14159
+    },{
+      "name": "intValue",
+      "type": "int",
+      "default": 9876
+    },{
+      "name": "boolValue1",
+      "type": "boolean",
+      "default": false
+    },{
+      "name": "boolValue2",
+      "type": "boolean",
+      "default": true
+    }
+  ]
+}

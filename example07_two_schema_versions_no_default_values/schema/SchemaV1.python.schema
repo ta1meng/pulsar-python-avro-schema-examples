@@ -1,0 +1,5 @@
+{
+    "type": "AVRO",
+    "schema": "{\"type\":\"record\",\"name\":\"NoNestingNoDefaultValues\",\"namespace\":\"org.apache.pulsar.examples\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"floatValue\",\"type\":\"float\"},{\"name\":\"intValue\",\"type\":\"int\"},{\"name\":\"boolValue1\",\"type\":\"boolean\"},{\"name\":\"boolValue2\",\"type\":\"boolean\"}]}",
+    "properties": {}
+}
